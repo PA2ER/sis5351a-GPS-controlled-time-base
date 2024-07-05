@@ -1,0 +1,21 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,8.0.3-1.fc40*%
+%TF.CreationDate,2024-07-02T21:04:05+02:00*%
+%TF.ProjectId,sis5351a GPS controlled time base,73697335-3335-4316-9120-47505320636f,rev?*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,NonPlated,1,2,NPTH,Drill*%
+%TF.FilePolarity,Positive*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 8.0.3-1.fc40) date 2024-07-02 21:04:05*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%TA.AperFunction,ComponentDrill*%
+%ADD10C,3.500000*%
+%TD*%
+G04 APERTURE END LIST*
+D10*
+%TO.C,U4*%
+X160600000Y-75370000D03*
+M02*

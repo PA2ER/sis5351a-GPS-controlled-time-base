@@ -1,0 +1,55 @@
+{
+    "type": "InteractiveHtmlBom settings",
+    "version": 1,
+    "pcbmetadata": {
+        "title": "sis5351a GPS controlled time base",
+        "revision": "",
+        "company": "",
+        "date": "2023-11-28 21:57:54"
+    },
+    "settings": {
+        "canvaslayout": "F",
+        "bomlayout": "left-right",
+        "bommode": "grouped",
+        "checkboxes": [
+            "Sourced",
+            "Delivert",
+            "Placed"
+        ],
+        "checkboxStoredRefs": {
+            "Sourced": "27,6,35,11,38,29,36,41,0,42,14,40,10,31,4,23,26,30,12,34,24,20,17,22,25,45,7,18,15,1,21,32,5,33,19,2,3",
+            "Placed": "",
+            "D": "",
+            "De": "",
+            "Del": "",
+            "Deli": "",
+            "Deliv": "",
+            "Delive": "",
+            "Deliver": "",
+            "Delivert": ""
+        },
+        "darkMode": true,
+        "highlightpin1": "none",
+        "redrawOnDrag": true,
+        "boardRotation": 0,
+        "offsetBackRotation": false,
+        "renderPads": true,
+        "renderReferences": true,
+        "renderValues": true,
+        "renderSilkscreen": true,
+        "renderFabrication": false,
+        "renderDnpOutline": false,
+        "renderTracks": false,
+        "renderZones": false,
+        "columnOrder": [
+            "checkboxes",
+            "References",
+            "Value",
+            "Footprint",
+            "Quantity"
+        ],
+        "hiddenColumns": [],
+        "netColors": {},
+        "markWhenChecked": ""
+    }
+}

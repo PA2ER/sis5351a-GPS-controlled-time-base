@@ -1,0 +1,7 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "LM1117IMPX-5-0")(type "KiCad")(uri "/home/erik/Documenten/Technische info/GPSBox/ul_LM1117IMPX-5-0-NOPB/STEP")(options "")(descr ""))
+  (lib (name "Adafruit SI5351")(type "KiCad")(uri "/home/erik/Kicad Projects/sis5351a GPS controlled time base")(options "")(descr ""))
+  (lib (name "GPS_Neo-6M")(type "KiCad")(uri "${KIPRJMOD}/GPS_Neo-6M.pretty")(options "")(descr ""))
+  (lib (name "1734327-1")(type "KiCad")(uri "/home/erik/Documenten/Technische info/GPSBox/CONN_1734327-2/footprints.pretty")(options "")(descr ""))
+)
