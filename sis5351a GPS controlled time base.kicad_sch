@@ -5720,16 +5720,6 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 59.69) (xy 250.19 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1845c729-f946-4b8b-a3a9-c5aa0d897491")
-	)
-	(wire
-		(pts
 			(xy 40.64 140.97) (xy 35.56 140.97)
 		)
 		(stroke
@@ -5767,16 +5757,6 @@
 			(type default)
 		)
 		(uuid "23e37738-f414-444a-8d0f-07f98995d172")
-	)
-	(wire
-		(pts
-			(xy 242.57 59.69) (xy 242.57 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "26df1b12-c552-4a94-bbb5-9835b6f3f281")
 	)
 	(wire
 		(pts
@@ -6970,7 +6950,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 71.12) (xy 242.57 69.85)
+			(xy 242.57 59.69) (xy 242.57 71.12)
 		)
 		(stroke
 			(width 0)
@@ -7120,7 +7100,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 73.66) (xy 250.19 69.85)
+			(xy 250.19 59.69) (xy 250.19 73.66)
 		)
 		(stroke
 			(width 0)
@@ -8255,22 +8235,22 @@
 	)
 	(global_label "SCL5"
 		(shape input)
-		(at 86.36 41.91 180)
+		(at 135.89 41.91 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "8b26f3c4-d47f-469f-a6bb-3593621a7fde")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 78.6577 41.91 0)
+			(at 143.5923 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -8497,44 +8477,44 @@
 	)
 	(global_label "SCL3"
 		(shape output)
-		(at 135.89 41.91 0)
+		(at 86.36 41.91 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "a27bd34f-5bf7-4d3f-98b2-ebc4207733f1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 143.5923 41.91 0)
+			(at 78.6577 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
 	)
 	(global_label "SDA3"
 		(shape output)
-		(at 135.89 29.21 0)
+		(at 86.36 29.21 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "a4e03297-cec1-4db1-a59b-4eed927575d1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 143.6528 29.21 0)
+			(at 78.5972 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -8651,22 +8631,22 @@
 	)
 	(global_label "SDA5"
 		(shape input)
-		(at 86.36 29.21 180)
+		(at 135.89 29.21 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "c660c59a-cb11-4490-b8ae-e10e6c17a355")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 78.5972 29.21 0)
+			(at 143.6528 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -10160,7 +10140,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 95.25 20.32 0)
+		(at 124.46 20.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10169,7 +10149,7 @@
 		(fields_autoplaced yes)
 		(uuid "21eb34ef-6659-43b8-9f38-935218a8bc2d")
 		(property "Reference" "#PWR012"
-			(at 95.25 24.13 0)
+			(at 124.46 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10178,7 +10158,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 95.25 15.24 0)
+			(at 124.46 15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10186,7 +10166,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 95.25 20.32 0)
+			(at 124.46 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10195,7 +10175,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 95.25 20.32 0)
+			(at 124.46 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10204,7 +10184,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 95.25 20.32 0)
+			(at 124.46 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10601,7 +10581,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 132.08 20.32 0)
+		(at 102.87 20.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10610,7 +10590,7 @@
 		(fields_autoplaced yes)
 		(uuid "2fbdee34-13bc-46f9-8886-39626ef24998")
 		(property "Reference" "#PWR015"
-			(at 132.08 24.13 0)
+			(at 102.87 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10619,7 +10599,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 132.08 15.24 0)
+			(at 102.87 15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10627,7 +10607,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 132.08 20.32 0)
+			(at 102.87 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10636,7 +10616,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 132.08 20.32 0)
+			(at 102.87 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10645,7 +10625,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 132.08 20.32 0)
+			(at 102.87 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11281,7 +11261,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 102.87 20.32 0)
+		(at 132.08 20.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11290,7 +11270,7 @@
 		(fields_autoplaced yes)
 		(uuid "4c4202af-d3ae-4c1b-b5e0-d3bbc7a138ed")
 		(property "Reference" "#PWR013"
-			(at 102.87 24.13 0)
+			(at 132.08 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11299,7 +11279,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 102.87 15.24 0)
+			(at 132.08 15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11307,7 +11287,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 102.87 20.32 0)
+			(at 132.08 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11316,7 +11296,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 102.87 20.32 0)
+			(at 132.08 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11325,7 +11305,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 102.87 20.32 0)
+			(at 132.08 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11941,76 +11921,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 250.19 66.04 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "66d182f0-6e47-4a4b-8859-e74d012732a7")
-		(property "Reference" "R8"
-			(at 252.73 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1K"
-			(at 252.73 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 248.412 66.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 250.19 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 250.19 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b10a62df-c4b6-4bb9-a851-b05ed14d7dfa")
-		)
-		(pin "2"
-			(uuid "c983f886-3a2f-4bd6-82fb-05e53977c925")
-		)
-		(instances
-			(project "sis5351a GPS controlled time base"
-				(path "/3e92bbdf-4ead-4bfe-9d54-982f224f75c6"
-					(reference "R8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 90.17 143.51 180)
 		(unit 1)
@@ -12356,7 +12266,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 124.46 20.32 0)
+		(at 95.25 20.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12365,7 +12275,7 @@
 		(fields_autoplaced yes)
 		(uuid "7f472b44-c6b6-4a52-9a18-49778d2d88ad")
 		(property "Reference" "#PWR014"
-			(at 124.46 24.13 0)
+			(at 95.25 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12374,7 +12284,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 124.46 15.24 0)
+			(at 95.25 15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12382,7 +12292,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 124.46 20.32 0)
+			(at 95.25 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12391,7 +12301,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.46 20.32 0)
+			(at 95.25 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12400,7 +12310,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 124.46 20.32 0)
+			(at 95.25 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13733,76 +13643,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 242.57 66.04 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a3d686c6-b26b-41bb-b24e-04fdb59d3ac3")
-		(property "Reference" "R7"
-			(at 245.11 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1K"
-			(at 245.11 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 240.792 66.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 242.57 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 242.57 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "af2135c8-cdfc-46b8-ac02-66e093ac3ae0")
-		)
-		(pin "2"
-			(uuid "517a9f73-daa2-4007-b88e-868c5b84ff3e")
-		)
-		(instances
-			(project "sis5351a GPS controlled time base"
-				(path "/3e92bbdf-4ead-4bfe-9d54-982f224f75c6"
-					(reference "R7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Polarized")
 		(at 163.83 38.1 0)
 		(unit 1)
@@ -13898,7 +13738,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Crystal:Crystal_SMD_Abracon_ABM8AIG-4Pin_3.2x2.5mm"
+		(property "Footprint" "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm_HandSoldering"
 			(at 29.21 85.09 0)
 			(effects
 				(font
